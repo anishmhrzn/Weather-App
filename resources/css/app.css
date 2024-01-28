@@ -36,6 +36,12 @@ body::before {
     }
 }
 
+@media (max-width: 460px) {
+    .container {
+        max-width: 300px;
+    }
+}
+
 /* Search bar */
 input[type="text"] {
     padding: 10px;
