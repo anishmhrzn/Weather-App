@@ -11,7 +11,7 @@
         <div v-if="weatherData" class="py-5">
             <h4>{{ weatherData.location }}</h4>
             <div class="row">
-                <div class="col-md-4 mt-4 weather-items" v-for="(day, index) in weatherData.forecast" :key="index">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4 weather-items" v-for="(day, index) in weatherData.forecast" :key="index">
                     <div class="card">
                         <div class="card-header d-flex justify-content-between align-items-center">
                             <h5 class="card-title m-0">

@@ -23,6 +23,18 @@ body::before {
     max-width: 960px;
 }
 
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 421px;
+    }
+}
+
 /* Search bar */
 input[type="text"] {
     padding: 10px;
