@@ -31,7 +31,7 @@ class ForecastController extends Controller
         }
         $weatherData = ['location' => $location];
         foreach ($responseData['timelines']['daily'] as $index => $data) {
-            if ($index > 4) break;
+            if ($index > 5) break;
 
             $date = Carbon::parse($data['time']);
             $dailyResponse = [

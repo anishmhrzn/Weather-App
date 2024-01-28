@@ -10,7 +10,7 @@ The weather data displayed on the app is fetched from [Tomorrow.io](https://www.
 
 - **Clone the repository.**
   ```bash
-  git clone [repository_url]
+  git clone https://github.com/anishmhrzn/Weather-App.git
   ```
 - run the following package installation commands
    ```bash
